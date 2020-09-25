@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">skbtest</string>
+    <string name="auth_with_github">Auth with GitHub</string>
+    <string name="auth_with_google">Auth with Google</string>
+    <string name="proceed_without_auth">Proceed without auth</string>
+    <string name="client_id">228355956716-hn5quss06q5qe9aed7b9tpihnhrqa8ut.apps.googleusercontent.com</string>
+</resources>

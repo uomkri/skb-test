@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navgraph"
+    app:startDestination="@id/authMainFragment">
+
+    <fragment
+        android:id="@+id/authMainFragment"
+        android:name="ru.uomkri.skbtest.screens.auth.AuthFragment"
+        android:label="AuthMainFragment" >
+        <action
+            android:id="@+id/action_authMainFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="ru.uomkri.skbtest.screens.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+        <argument
+            android:name="isLoggedIn"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="ru.uomkri.skbtest.screens.details.DetailsFragment"
+        android:label="DetailsFragment" >
+        <argument
+            android:name="isLoggedIn"
+            app:argType="boolean" />
+        <argument
+            android:name="owner"
+            app:argType="string" />
+        <argument
+            android:name="repoName"
+            app:argType="string" />
+    </fragment>
+</navigation>

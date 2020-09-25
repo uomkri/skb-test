@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "228355956716",
+    "firebase_url": "https://skb-test-4960d.firebaseio.com",
+    "project_id": "skb-test-4960d",
+    "storage_bucket": "skb-test-4960d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228355956716:android:c8864351ed04dc84116ac9",
+        "android_client_info": {
+          "package_name": "ru.uomkri.skbtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228355956716-o6ptb06qpqgo6pd6q7j2c5l0jfl14u6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.uomkri.skbtest",
+            "certificate_hash": "899950a111253b6686c827599635bf7ad2cef592"
+          }
+        },
+        {
+          "client_id": "228355956716-hn5quss06q5qe9aed7b9tpihnhrqa8ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8Y-7vCYddUCf_i1_73808yBiQ-16ePNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228355956716-hn5quss06q5qe9aed7b9tpihnhrqa8ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
