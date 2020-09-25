@@ -23,7 +23,6 @@ import ru.uomkri.skbtest.screens.MainActivity
 import ru.uomkri.skbtest.screens.auth.AuthFragmentDirections
 import javax.inject.Inject
 
-//TODO: Insert DI where needed
 @AndroidEntryPoint
 class AuthFragment() : Fragment() {
 
